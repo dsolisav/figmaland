@@ -1,6 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Graphik', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +14,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@responsive{
+  .bg-custom {
+    background-image: url('assets/images/headerImage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+@responsive{
+  .bg-custom-mobile {
+    background-image: url('assets/images/headerMobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Graphik';
+    font-style: black;
+    font-weight: 900;
+    src: url(/src/assets/fonts/GraphikBlack.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: bold;
+    font-weight: 700;
+    src: url(/src/assets/fonts/GraphikBold.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: extralight;
+    font-weight: 200;
+    src: url(/src/assets/fonts/GraphikExtralight.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: light;
+    font-weight: 300;
+    src: url(/src/assets/fonts/GraphikLight.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: medium;
+    font-weight: 500;
+    src: url(/src/assets/fonts/GraphikMedium.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/src/assets/fonts/GraphikRegular.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: semibold;
+    font-weight: 600;
+    src: url(/src/assets/fonts/GraphikSemibold.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: extrabold;
+    font-weight: 800;
+    src: url(/src/assets/fonts/GraphikSuper.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Graphik';
+    font-style: thin;
+    font-weight: 100;
+    src: url(/src/assets/fonts/GraphikThin.otf) format('opentype');
+  }
+  
+  
 }
