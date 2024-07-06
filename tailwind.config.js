@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       screens : {
         'ssm':'500px',
+        'mg':'870px'
       },
       fontFamily : {
         graphik : ['Graphik', 'sans-serif']

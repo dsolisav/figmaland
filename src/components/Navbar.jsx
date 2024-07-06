@@ -2,39 +2,57 @@ import figmalandLogo from '../assets/images/figmalandLogo.png'
 import twitterImageWhite from "../assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../assets/images/linkedinImageWhite.png";
-import IconRow from './IconRow';
+import navButton from '../assets/images/navButton.png'
+import { useMediaQuery } from "react-responsive";
 
 function Navbar() {
-    return (  
-        <div className="absolute top-0 left-0 flex flex-row justify-center py-6 w-full gap-44">
-            <div className="text-white text-xs flex flex-row gap-8 items-center">
-                <p>
-                    Home
-                </p>
-                <p>
-                    Product
-                </p>
-                <p>
-                    Pricing
-                </p>
-                <p>
-                    About
-                </p>
-                <p>
-                    Contact
-                </p>
+    const isMobile = useMediaQuery({ query: `(max-width: 500px)` });
+    return (
+        <>
+        {isMobile ? 
+            <div className="absolute inset-x-0 top-0 flex flex-row justify-between py-4 px-4 items-center">
                 <div>
-                    <img src={figmalandLogo} className='min-w-4 w-32' />
+                    <img src={figmalandLogo} className='w-48' />
+                </div>
+                <div>
+                    <img src={navButton} className='w-8' />
                 </div>
             </div>
-            <div className='flex items-center'>
-                <IconRow
-                    firstImg={twitterImageWhite}
-                    secondImg={facebookImageWhite}
-                    thirdImg={linkedinImageWhite}
-                />
+            :
+                <div className="absolute inset-x-0 top-0 flex flex-row justify-center py-6 w-full sm:gap-16 md:gap-28 lg:gap-44">
+                <div className="text-white text-xs flex flex-row gap-8 items-center">
+                    <p>
+                        Home
+                    </p>
+                    <p>
+                        Product
+                    </p>
+                    <p>
+                        Pricing
+                    </p>
+                    <p>
+                        About
+                    </p>
+                    <p>
+                        Contact
+                    </p>
+                    <div>
+                        <img src={figmalandLogo} className='min-w-24 w-32' />
+                    </div>
+                </div>
+                <div className='flex items-center'>
+                    <div className="flex flex-row gap-6 justify-center ssm:justify-start h-4 lg:h-5">
+                        <img src={twitterImageWhite} className="h-full"/>
+                        <img src={facebookImageWhite} className="h-full"/>
+                        <img src={linkedinImageWhite} className="h-full"/>
+                    </div>
+                </div>
+                
             </div>
-        </div>
+        }
+            
+        </>
+        
     );
 }
 
