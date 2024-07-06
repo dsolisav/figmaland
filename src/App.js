@@ -2,7 +2,6 @@
 import "./App.css";
 import FeatureRow from "./components/FeatureRow";
 import HeaderSection from "./components/HeaderSection";
-import Navbar from "./components/Navbar";
 import videoImage from "../src/assets/images/videoImage.png";
 import ContactCard from "./components/ContactCard";
 import ContactRow from "./components/ContactRow";
@@ -42,7 +41,7 @@ function App() {
         </div>
         {isMobile ? (
           <div>
-            <img src={videoImageMobile} className="flex justify-center mt-10" />
+            <img src={videoImageMobile} className="flex justify-center mt-10" alt="appImage" />
           </div>
         ) : (
           <div></div>
@@ -53,7 +52,7 @@ function App() {
         ) : (
           <div id="videoImage" className="flex justify-center">
             <div className="flex justify-center w-[80%]">
-              <img src={videoImage} />
+              <img src={videoImage} alt="appImage"/>
             </div>
           </div>
         )}
@@ -104,7 +103,7 @@ function App() {
               <ContactRow />
 
               <div className="flex justify-center">
-                <img src={mapImage} className="w-[26rem]" />
+                <img src={mapImage} className="w-[26rem]" alt="appImage"/>
               </div>
               <IconRow
                 firstImg={twitterImage}
@@ -118,13 +117,13 @@ function App() {
           <FooterWords />
           <div className="flex flex-col gap-5 justify-start items-start">
             <div className="flex flex-row gap-2 justify-center items-center">
-              <img src={locationImageWhite} className="w-6" />
+              <img src={locationImageWhite} className="w-6" alt="appImage"/>
               <p className="text-white text-[0.67rem] font-light text-left">
                 7480 Mockingbird Hill undefined
               </p>
             </div>
             <div className="flex flex-row gap-2 justify-center items-center">
-              <img src={phoneImageWhite} className="w-4" />
+              <img src={phoneImageWhite} className="w-4" alt="appImage"/>
               <p className="text-white text-[0.67rem] font-light text-left">
                 (239) 555-0108
               </p>

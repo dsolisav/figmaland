@@ -7,7 +7,7 @@ function FeatureRow() {
         <div className="my-20 flex flex-col ssm:flex-row justify-center gap-16 flex-wrap">
             <div className="flex flex-col gap-3">
                 <div className='flex justify-center'>
-                    <img src = {iconOpenType} className='w-8' />
+                    <img src = {iconOpenType} className='w-8' alt="appImage"/>
                 </div>
                 <p className='font-bold leading-[1.35rem] text-[#252B42]'>
                     OpenType features<br/>
@@ -19,7 +19,7 @@ function FeatureRow() {
             </div>
             <div className="flex flex-col gap-3">
                 <div className='flex justify-center'>
-                    <img src = {iconDesign} className='w-8' />
+                    <img src = {iconDesign} className='w-8' alt="appImage"/>
                 </div>
                 <p className='font-bold leading-[1.35rem] text-[#252B42]'>
                     Design with real data
@@ -30,7 +30,7 @@ function FeatureRow() {
             </div>
             <div className="flex flex-col gap-3">
                 <div className='flex justify-center'>
-                    <img src = {iconFastest} className='w-8' />
+                    <img src = {iconFastest} className='w-8' alt="appImage"/>
                 </div>
                 <p className='font-bold leading-[1.35rem] text-[#252B42]'>
                     Fastest way to<br/>
