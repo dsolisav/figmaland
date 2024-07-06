@@ -60,7 +60,7 @@ function App() {
 
         <div
           id="contactUs"
-          className="flex justify-center flex-col gap-5 mt-28 mb-12"
+          className="flex justify-center flex-col gap-5 mt-28 mb-3"
         >
           <p className="font-normal text-[#252B42] text-4xl">Contact Us</p>
           {isMobile ? (
@@ -88,7 +88,7 @@ function App() {
         </div>
 
         {isMobile ? (
-          <div className="px-6">
+          <div className="px-6 mt-14">
             <ContactRow />
           </div>
         ) : (
