@@ -4,7 +4,7 @@ import iconFastest from '../assets/images/iconFastest.png'
 
 function FeatureRow() {
     return (
-        <div className="my-20 flex justify-center gap-16 flex-wrap">
+        <div className="my-20 flex flex-col ssm:flex-row justify-center gap-16 flex-wrap">
             <div className="flex flex-col gap-3">
                 <div className='flex justify-center'>
                     <img src = {iconOpenType} className='w-8' />
