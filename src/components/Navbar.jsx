@@ -4,20 +4,39 @@ import facebookImageWhite from "../assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../assets/images/linkedinImageWhite.png";
 import navButton from '../assets/images/navButton.png'
 import useWindowMediaQuery from '../hooks/handleWindow';
+import BurgerMenu from './BurguerMenu';
 
-function Navbar() {
+
+function Navbar({click, setClick}) {
     const {isMobile} = useWindowMediaQuery();
+    
     return (
         <>
-        {isMobile ? 
-            <div className="absolute inset-x-0 top-0 flex flex-row justify-between py-4 px-4 items-center">
-                <div>
-                    <img src={figmalandLogo} className='w-48' alt="appImage"/>
+        {isMobile ?
+            <>
+                <div className="absolute inset-x-0 top-0 flex flex-row justify-between py-4 px-4 items-center">
+                    <div>
+                        <img src={figmalandLogo} className='w-48' alt="appImage"/>
+                    </div>
+                    {
+                        !click && 
+                        <div>
+                            <button className='w-8' onClick={() => setClick(!click)}>
+                                <img src={navButton} className='w-full' alt="appImage"/>
+                            </button>
+                        </div>
+                    }
+                    
                 </div>
-                <div>
-                    <img src={navButton} className='w-8' alt="appImage"/>
+                <div className='absolute inset-x-0 top-0'>
+                {
+                    click && <BurgerMenu click={click} setClick = {setClick} />
+                }
                 </div>
-            </div>
+            </>
+            
+            
+            
             :
                 <div className="absolute inset-x-0 top-0 flex flex-row justify-center py-6 w-full sm:gap-16 md:gap-28 lg:gap-44">
                 <div className="text-white text-xs flex flex-row gap-8 items-center">

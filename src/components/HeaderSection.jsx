@@ -4,14 +4,15 @@ import headerImageMobile from '../assets/images/headerMobile.png'
 import '../index.css';
 import useWindowMediaQuery from '../hooks/handleWindow';
 import Navbar from './Navbar';
-
+import { useState } from 'react';
 
 function HeaderSection() {
     const {isMobile} = useWindowMediaQuery();
+    const [clickBurguer, setClickBurguer] = useState(false);
     return ( 
         <div className='relative'>
             <img src={isMobile ? headerImageMobile : headerImage} alt="headerImage" className="w-full h-full object-cover" />
-            <Navbar />
+            <Navbar click={clickBurguer} setClick={setClickBurguer} />
             {
                 isMobile ? 
                 <div className='absolute top-52 text-white w-full flex justify-center flex-col gap-10 p-2'>
