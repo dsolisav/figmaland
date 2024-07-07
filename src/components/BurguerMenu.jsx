@@ -13,10 +13,10 @@ function BurgerMenu({click, setClick}) {
         const cleanUp = setFullHeight(menuRef.current);
         return cleanUp;
     }, []);
-    
+
     return (
-        <div className="fixed inset-0 flex justify-end items-end z-30">
-            <div className="h-full w-[60%] bg-gradient-to-bl from-[#000000f5] to-[#303030f5] rounded-l-2xl">
+        <div className="fixed inset-0 flex justify-end items-end z-30 touch-none">
+            <div className="h-full w-full bg-gradient-to-bl from-[#000000f5] to-[#303030f5]">
                 <button className='fixed top-0 right-0 flex justify-end' onClick={() => setClick(!click)}>
                     <img src={closeIcon} className='w-6 mx-4 my-8' />
                 </button>
