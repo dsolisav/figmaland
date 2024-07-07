@@ -31,7 +31,7 @@ function HeaderSection() {
                     </div>
                 </div>
                 :
-                <div className='absolute top-6 ssm:top-16 md:top-20 mg:top-28 lg:top-44 flex flex-col justify-center items-center text-white w-full gap-3'>
+                <div className='absolute top-6 ssm:top-[4.7rem] md:top-20 mg:top-28 lg:top-44 flex flex-col justify-center items-center text-white w-full gap-3'>
                     <p className='sm:text-4xl ssm:text-3xl md:text-6xl font-bold'>
                         The best products <br/>
                         start with Figma
