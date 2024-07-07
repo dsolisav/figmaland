@@ -3,16 +3,8 @@ import IconRow from './IconRow';
 import twitterImageWhite from "../assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../assets/images/linkedinImageWhite.png";
-import React, { useEffect, useRef } from 'react';
-import { setFullHeight } from '../utils/handleViewportHeight';
 
 function BurgerMenu({click, setClick}) {
-    const menuRef = useRef(null);
-
-    useEffect(() => {
-        const cleanUp = setFullHeight(menuRef.current);
-        return cleanUp;
-    }, []);
 
     return (
         <div className="fixed inset-0 flex justify-end items-end z-30 touch-none">

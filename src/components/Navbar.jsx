@@ -39,7 +39,7 @@ function Navbar({click, setClick}) {
             
             :
                 <div className="absolute inset-x-0 top-0 flex flex-row justify-center py-6 w-full sm:gap-16 md:gap-28 lg:gap-44">
-                <div className="text-white text-xs flex flex-row gap-8 items-center">
+                <div className="text-white text-xs flex flex-row gap-8 items-center xl:text-base">
                     <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
                         Home
                     </a>
@@ -57,13 +57,13 @@ function Navbar({click, setClick}) {
                     </a>
                     <div>
                         <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank">
-                            <img src={figmalandLogo} className='min-w-24 w-32' alt="appImage"/>
+                            <img src={figmalandLogo} className='min-w-24 w-32 xl:w-36' alt="appImage"/>
                         </a>
                         
                     </div>
                 </div>
                 <div className='flex items-center'>
-                    <div className="flex flex-row gap-6 justify-center ssm:justify-start h-4 lg:h-5">
+                    <div className="flex flex-row gap-6 justify-center ssm:justify-start h-4 lg:h-5 xl:h-6">
                         <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank">
                             <img src={twitterImageWhite} className="h-full" alt="appImage"/>
                         </a>
