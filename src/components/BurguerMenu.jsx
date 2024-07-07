@@ -7,7 +7,7 @@ import linkedinImageWhite from "../assets/images/linkedinImageWhite.png";
 function BurgerMenu({click, setClick}) {
     return (
         <div className="fixed inset-0 flex justify-end items-end z-30">
-            <div className="h-full w-[60%] bg-gradient-to-bl from-[#000000f5] to-[#303030f5] rounded-l-2xl">
+            <div className="sticky h-full w-[60%] bg-gradient-to-bl from-[#000000f5] to-[#303030f5] rounded-l-2xl">
                 <button className='fixed top-0 right-0 flex justify-end' onClick={() => setClick(!click)}>
                     <img src={closeIcon} className='w-6 mx-4 my-8' />
                 </button>
