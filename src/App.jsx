@@ -15,6 +15,8 @@ import twitterImageWhite from "../src/assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../src/assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../src/assets/images/linkedinImageWhite.png";
 import useWindowMediaQuery from "./hooks/handleWindow";
+import videoDesktop from "../src/assets/videos/videoDesktop.mp4"
+import videoMobile from "../src/assets/videos/videoMobile.mp4"
 
 function App() {
   const {isMobile} = useWindowMediaQuery();
@@ -40,8 +42,8 @@ function App() {
         <div className="flex justify-center ssm:hidden">
           <div id="videoContainer" className="flex justify-center rounded-full w-[100%] drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)] p-5">
             <video className="w-full rounded-3xl" controls>
-              <source src="../src/assets/videos/videoMobile.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
+              <source src={videoMobile} type="video/mp4" />
+              
             </video>
           </div>
         </div>
@@ -50,9 +52,8 @@ function App() {
         
         <div id="videoImage" className="hidden ssm:flex ssm:justify-center">
           <div id="videoContainer" className="flex justify-center rounded-full w-[70%] drop-shadow-[0_5px_5px_rgba(0,0,0,0.4)]">
-            <video className="w-full rounded-3xl" controls>
-              <source src="../src/assets/videos/videoDesktop.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
+            <video src={videoDesktop} className="w-full rounded-3xl" controls>
+              
             </video>
           </div>
         </div>
