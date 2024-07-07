@@ -9,61 +9,61 @@ function FooterWords() {
                     <p className="text-white text-sm font-semibold text-center ssm:text-left">
                         Annette Stewart
                     </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Jennie Cooper
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Julie Henry
-                    </p>
-                    <p className="text-white text-xs font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Johnny Murphy
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Gregory Mccoy
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Marvin McKinney
-                    </p>
+                    </a>
                 </div>
                 <div className="flex flex-col gap-4 justify-between">
                     <p className="text-white text-sm font-semibold text-center ssm:text-left">
                         Annette Stewart
                     </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Jennie Cooper
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Julie Henry
-                    </p>
-                    <p className="text-white text-xs font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Johnny Murphy
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Gregory Mccoy
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Marvin McKinney
-                    </p>
+                    </a>
                 </div>
                 <div className="flex flex-col gap-4 justify-between">
                     <p className="text-white text-sm font-semibold text-center ssm:text-left">
                         Annette Stewart
                     </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Jennie Cooper
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Julie Henry
-                    </p>
-                    <p className="text-white text-xs font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Johnny Murphy
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Gregory Mccoy
-                    </p>
-                    <p className="text-white text-[0.67rem] font-light text-center ssm:text-left">
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-center ssm:text-left hover:underline">
                         Marvin McKinney
-                    </p>
+                    </a>
                 </div>
             </div>
         :
@@ -72,61 +72,61 @@ function FooterWords() {
                 <p className="text-white text-sm font-semibold text-left">
                     Pages
                 </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Home
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Product
-                </p>
-                <p className="text-white text-xs font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Pricing
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     About
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Contact
-                </p>
+                </a>
             </div>
             <div className="flex flex-col gap-4 justify-between">
                 <p className="text-white text-sm font-semibold text-left">
                     Tomothy
                 </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Eleanor Edwards
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Ted Robertson
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Annette Russell
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Jennie McKinney
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Gloria Richards
-                </p>
+                </a>
             </div>
             <div className="flex flex-col gap-4 justify-between">
                 <p className="text-white text-sm font-semibold text-left">
                     Jane Black
                 </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Philip Jones
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Product
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Colleen Russell
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Marvin Hawkins
-                </p>
-                <p className="text-white text-[0.67rem] font-light text-left">
+                </a>
+                <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                     Bruce Simmons
-                </p>
+                </a>
             </div>
         </div>
     );

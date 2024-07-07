@@ -2,10 +2,8 @@
 import "./App.css";
 import FeatureRow from "./components/FeatureRow";
 import HeaderSection from "./components/HeaderSection";
-import videoImage from "../src/assets/images/videoImage.png";
 import ContactCard from "./components/ContactCard";
 import ContactRow from "./components/ContactRow";
-import mapImage from "../src/assets/images/mapImage.png";
 import twitterImage from "../src/assets/images/twitterImage.png";
 import facebookImage from "../src/assets/images/facebookImage.png";
 import linkedinImage from "../src/assets/images/linkedinImage.png";
@@ -16,7 +14,6 @@ import phoneImageWhite from "../src/assets/images/phoneImageWhite.png";
 import twitterImageWhite from "../src/assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../src/assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../src/assets/images/linkedinImageWhite.png";
-import videoImageMobile from "../src/assets/images/videoImageMobile.png";
 import useWindowMediaQuery from "./hooks/handleWindow";
 
 function App() {
@@ -40,15 +37,23 @@ function App() {
           )}
         </div>
         
-        <div className="ssm:hidden">
-          <img src={videoImageMobile} className="flex justify-center mt-10" alt="appImage" />
+        <div className="flex justify-center ssm:hidden">
+          <div id="videoContainer" className="flex justify-center rounded-full w-[100%] drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)] p-5">
+            <video className="w-full rounded-3xl" controls>
+              <source src="../src/assets/videos/videoMobile.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
         
         <FeatureRow />
         
         <div id="videoImage" className="hidden ssm:flex ssm:justify-center">
-          <div className="flex justify-center w-[80%]">
-            <img src={videoImage} alt="appImage"/>
+          <div id="videoContainer" className="flex justify-center rounded-full w-[70%] drop-shadow-[0_5px_5px_rgba(0,0,0,0.4)]">
+            <video className="w-full rounded-3xl" controls>
+              <source src="../src/assets/videos/videoDesktop.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
         
@@ -86,14 +91,15 @@ function App() {
         </div>
         
 
-        <div className="flex flex-row gap-12 justify-center p-[0.1rem] mt-8 ssm:mt-0 ssm:p-2 mb-16">
+        <div className="flex flex-row gap-12 justify-center p-[0.1rem] mt-8 ssm:mt-0 ssm:p-4 mb-16">
           <ContactCard />
           
           <div className="hidden ssm:flex flex-col justify-center gap-12">
             <ContactRow />
 
             <div className="flex justify-center">
-              <img src={mapImage} className="w-[26rem]" alt="appImage"/>
+              {/* <img src={mapImage} className="w-[26rem]" alt="appImage"/> */}
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.459721115193!2d-122.41640056687972!3d37.77926471706947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e5211a1ef%3A0x2572614e49e2c2af!2sOrpheum%20Theatre!5e0!3m2!1ses-419!2sco!4v1720333481739!5m2!1ses-419!2sco" className="w-full aspect-video"></iframe>
             </div>
             <IconRow
               firstImg={twitterImage}
@@ -108,9 +114,9 @@ function App() {
           <div className="flex flex-col gap-5 justify-start items-start">
             <div className="flex flex-row gap-2 justify-center items-center">
               <img src={locationImageWhite} className="w-6" alt="appImage"/>
-              <p className="text-white text-[0.67rem] font-light text-left">
+              <a href="https://maps.app.goo.gl/t9bXgzsbfE3XXghTA" target="_blank" className="text-white text-[0.67rem] font-light text-left hover:underline">
                 7480 Mockingbird Hill undefined
-              </p>
+              </a>
             </div>
             <div className="flex flex-row gap-2 justify-center items-center">
               <img src={phoneImageWhite} className="w-4" alt="appImage"/>

@@ -15,7 +15,7 @@ function ContactCard() {
                     <textarea id="message" rows="4" className="w-[85%] bg-[#F5F5F5] focus:outline-none border-[1px] border-[#E8E8E8] p-4 text-xs placeholder-[#18171D] h-40" placeholder="Your message"></textarea>
                 </div>
                 <div className="flex justify-start px-5">
-                    <button className="bg-[#2091F9] hover:bg-[#196ebe] rounded-3xl text-white text-sm font-light py-[0.6rem] px-9">
+                    <button className="bg-[#2091F9] hover:bg-[#196ebe] rounded-3xl text-white text-sm font-light py-[0.6rem] px-9" onClick={() => alert('Send')}>
                         Send
                     </button>
                 </div>

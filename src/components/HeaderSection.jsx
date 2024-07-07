@@ -25,7 +25,7 @@ function HeaderSection() {
                         designed for teams.
                     </p>
                     <div>
-                        <button className="bg-[#2091F9] hover:bg-[#196ebe] rounded-3xl text-white text-lg font-light py-[0.5rem] px-14 mt-10">
+                        <button className="bg-[#2091F9] hover:bg-[#196ebe] rounded-3xl text-white text-lg font-light py-[0.5rem] px-14 mt-10" onClick={() => alert('Try for free')}>
                                 Try for free
                         </button>
                     </div>
@@ -41,7 +41,7 @@ function HeaderSection() {
                         for freelancers
                     </p>
                     <div>
-                        <button className="bg-[#2091F9] hover:bg-[#196ebe] rounded-3xl text-white text-base md:text-lg font-light sm:py-[0.45rem] ssm:py-[0.3rem] lg:py-[0.5rem] px-8 md:px-14 ssm:mt-0 lg:mt-10">
+                        <button className="bg-[#2091F9] hover:bg-[#196ebe] rounded-3xl text-white text-base md:text-lg font-light sm:py-[0.45rem] ssm:py-[0.3rem] lg:py-[0.5rem] px-8 md:px-14 ssm:mt-0 lg:mt-10" onClick={() => alert('Try for free')}>
                                 Try for free
                         </button>
                     </div>

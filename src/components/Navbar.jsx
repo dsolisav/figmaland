@@ -21,30 +21,39 @@ function Navbar() {
             :
                 <div className="absolute inset-x-0 top-0 flex flex-row justify-center py-6 w-full sm:gap-16 md:gap-28 lg:gap-44">
                 <div className="text-white text-xs flex flex-row gap-8 items-center">
-                    <p>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
                         Home
-                    </p>
-                    <p>
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
                         Product
-                    </p>
-                    <p>
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
                         Pricing
-                    </p>
-                    <p>
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
                         About
-                    </p>
-                    <p>
+                    </a>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
                         Contact
-                    </p>
+                    </a>
                     <div>
-                        <img src={figmalandLogo} className='min-w-24 w-32' alt="appImage"/>
+                        <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank">
+                            <img src={figmalandLogo} className='min-w-24 w-32' alt="appImage"/>
+                        </a>
+                        
                     </div>
                 </div>
                 <div className='flex items-center'>
                     <div className="flex flex-row gap-6 justify-center ssm:justify-start h-4 lg:h-5">
-                        <img src={twitterImageWhite} className="h-full" alt="appImage"/>
-                        <img src={facebookImageWhite} className="h-full" alt="appImage"/>
-                        <img src={linkedinImageWhite} className="h-full" alt="appImage"/>
+                        <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank">
+                            <img src={twitterImageWhite} className="h-full" alt="appImage"/>
+                        </a>
+                        <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank">
+                            <img src={facebookImageWhite} className="h-full" alt="appImage"/>
+                        </a>
+                        <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank">
+                            <img src={linkedinImageWhite} className="h-full" alt="appImage"/>
+                        </a>
                     </div>
                 </div>
                 
