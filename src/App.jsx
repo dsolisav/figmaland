@@ -14,7 +14,7 @@ import phoneImageWhite from "../src/assets/images/phoneImageWhite.png";
 import twitterImageWhite from "../src/assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../src/assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../src/assets/images/linkedinImageWhite.png";
-import useWindowMediaQuery from "./hooks/handleWindow";
+import useWindowMediaQuery from "./utils/handleWindow";
 import videoDesktop from "../src/assets/videos/videoDesktop.mp4"
 import videoMobile from "../src/assets/videos/videoMobile.mp4"
 

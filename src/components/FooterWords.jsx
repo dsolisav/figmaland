@@ -1,4 +1,4 @@
-import useWindowMediaQuery from "../hooks/handleWindow";
+import useWindowMediaQuery from "../utils/handleWindow";
 
 function FooterWords() {
     const {isMobile} = useWindowMediaQuery();

@@ -2,7 +2,7 @@
 import headerImage from '../assets/images/headerImage.png'
 import headerImageMobile from '../assets/images/headerMobile.png'
 import '../index.css';
-import useWindowMediaQuery from '../hooks/handleWindow';
+import useWindowMediaQuery from '../utils/handleWindow';
 import Navbar from './Navbar';
 import { useState } from 'react';
 

@@ -3,7 +3,7 @@ import twitterImageWhite from "../assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../assets/images/linkedinImageWhite.png";
 import navButton from '../assets/images/navButton.png'
-import useWindowMediaQuery from '../hooks/handleWindow';
+import useWindowMediaQuery from '../utils/handleWindow';
 import BurgerMenu from './BurguerMenu';
 
 
