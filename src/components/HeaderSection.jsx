@@ -2,12 +2,12 @@
 import headerImage from '../assets/images/headerImage.png'
 import headerImageMobile from '../assets/images/headerMobile.png'
 import '../index.css';
-import { useMediaQuery } from 'react-responsive';
+import useWindowMediaQuery from '../hooks/handleWindow';
 import Navbar from './Navbar';
 
 
 function HeaderSection() {
-    const isMobile = useMediaQuery({ query: `(max-width: 500px)` });
+    const {isMobile} = useWindowMediaQuery();
     return ( 
         <div className='relative'>
             <img src={isMobile ? headerImageMobile : headerImage} alt="headerImage" className="w-full h-full object-cover" />

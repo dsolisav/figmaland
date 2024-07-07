@@ -3,10 +3,10 @@ import twitterImageWhite from "../assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../assets/images/linkedinImageWhite.png";
 import navButton from '../assets/images/navButton.png'
-import { useMediaQuery } from "react-responsive";
+import useWindowMediaQuery from '../hooks/handleWindow';
 
 function Navbar() {
-    const isMobile = useMediaQuery({ query: `(max-width: 500px)` });
+    const {isMobile} = useWindowMediaQuery();
     return (
         <>
         {isMobile ? 

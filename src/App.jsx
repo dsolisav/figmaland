@@ -17,10 +17,10 @@ import twitterImageWhite from "../src/assets/images/twitterImageWhite.png";
 import facebookImageWhite from "../src/assets/images/facebookImageWhite.png";
 import linkedinImageWhite from "../src/assets/images/linkedinImageWhite.png";
 import videoImageMobile from "../src/assets/images/videoImageMobile.png";
-import { useMediaQuery } from "react-responsive";
+import useWindowMediaQuery from "./hooks/handleWindow";
 
 function App() {
-  const isMobile = useMediaQuery({ query: `(max-width: 500px)` });
+  const {isMobile} = useWindowMediaQuery();
   return (
     <div className="App">
       <div id="app-container">
@@ -39,23 +39,19 @@ function App() {
             </p>
           )}
         </div>
-        {isMobile ? (
-          <div>
-            <img src={videoImageMobile} className="flex justify-center mt-10" alt="appImage" />
-          </div>
-        ) : (
-          <div></div>
-        )}
+        
+        <div className="ssm:hidden">
+          <img src={videoImageMobile} className="flex justify-center mt-10" alt="appImage" />
+        </div>
+        
         <FeatureRow />
-        {isMobile ? (
-          <></>
-        ) : (
-          <div id="videoImage" className="flex justify-center">
-            <div className="flex justify-center w-[80%]">
-              <img src={videoImage} alt="appImage"/>
-            </div>
+        
+        <div id="videoImage" className="hidden ssm:flex ssm:justify-center">
+          <div className="flex justify-center w-[80%]">
+            <img src={videoImage} alt="appImage"/>
           </div>
-        )}
+        </div>
+        
 
         <div
           id="contactUs"
@@ -73,45 +69,39 @@ function App() {
               Slate is designed for freelancers
             </p>
           )}
-          {isMobile ? (
-            <div className="mt-12">
-              <IconRow
-                firstImg={twitterImage}
-                secondImg={facebookImage}
-                thirdImg={linkedinImage}
-              />
-            </div>
-          ) : (
-            <></>
-          )}
+          
+          <div className="mt-12 ssm:hidden">
+            <IconRow
+              firstImg={twitterImage}
+              secondImg={facebookImage}
+              thirdImg={linkedinImage}
+            />
+          </div>
+          
         </div>
 
-        {isMobile ? (
-          <div className="px-6 mt-14">
-            <ContactRow />
-          </div>
-        ) : (
-          <></>
-        )}
+        
+        <div className="px-6 mt-14 ssm:hidden">
+          <ContactRow />
+        </div>
+        
 
         <div className="flex flex-row gap-12 justify-center p-[0.1rem] mt-8 ssm:mt-0 ssm:p-2 mb-16">
           <ContactCard />
-          {isMobile ? (
-            <></>
-          ) : (
-            <div className="flex flex-col justify-center gap-12">
-              <ContactRow />
+          
+          <div className="hidden ssm:flex flex-col justify-center gap-12">
+            <ContactRow />
 
-              <div className="flex justify-center">
-                <img src={mapImage} className="w-[26rem]" alt="appImage"/>
-              </div>
-              <IconRow
-                firstImg={twitterImage}
-                secondImg={facebookImage}
-                thirdImg={linkedinImage}
-              />
+            <div className="flex justify-center">
+              <img src={mapImage} className="w-[26rem]" alt="appImage"/>
             </div>
-          )}
+            <IconRow
+              firstImg={twitterImage}
+              secondImg={facebookImage}
+              thirdImg={linkedinImage}
+            />
+          </div>
+          
         </div>
         <div className="flex flex-row h-[20%] bg-[#252B42] py-20 px-16 justify-center gap-20 ssm:gap-40 flex-wrap">
           <FooterWords />

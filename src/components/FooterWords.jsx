@@ -1,7 +1,7 @@
-import { useMediaQuery } from 'react-responsive';
+import useWindowMediaQuery from "../hooks/handleWindow";
 
 function FooterWords() {
-    const isMobile = useMediaQuery({ query: `(max-width: 500px)` });
+    const {isMobile} = useWindowMediaQuery();
     return (
         isMobile ?
             <div className="flex flex-col ssm:flex-row gap-14 ssm:gap-20">
