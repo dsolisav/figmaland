@@ -1,8 +1,8 @@
 # Figmaland Landing Page
 
-Web Layout for [Figmaland Landing Page](https://www.figma.com/file/D0hmUzaJ3OcEdKtcUvVm1M/Figmaland--Business-Landing-page-%28Community%29?node-id=65%3A0), developed in React ⚛ + Tailwind CSS 🌊 to look as similar as possible to the original Figma design. Build and dev features are optimized with Vite ⚡.
+Web Layout for [Figmaland Landing Page](https://www.figma.com/file/D0hmUzaJ3OcEdKtcUvVm1M/Figmaland--Business-Landing-page-%28Community%29?node-id=65%3A0), developed in React ⚛ + Tailwind CSS 🌊 to look as similar as possible to the original Figma design. Build and development features are optimized with Vite ⚡.
 
-Page was developed with close attention to detail and is fully responsive across a wide selection of devices and screen sizes. The page is fully deployed in Vercel and accessible at [figmaland-dsolis.vercel.app.](https://figmaland-dsolis.vercel.app/)
+Page was developed with close attention to detail and is fully responsive across a wide selection of devices and screen sizes. The page is fully deployed in Vercel and accessible at [figmaland-dsolis.vercel.app](https://figmaland-dsolis.vercel.app/).
 
 ## Available Dev Scripts
 
