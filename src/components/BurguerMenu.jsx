@@ -19,19 +19,19 @@ function BurgerMenu({click, setClick}) {
 
                 {/* Main menu content, with anchor tags for every option. Href is set to the website of the UNAL Faculty of Engineering as placeholder. */}
                 <div className="h-full flex justify-center flex-col gap-5 items-center text-white font-light mb-10">
-                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline' rel="noopener noreferrer">
                         Home
                     </a>
-                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline' rel="noopener noreferrer">
                         Product
                     </a>
-                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline' rel="noopener noreferrer">
                         Pricing
                     </a>
-                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline' rel="noopener noreferrer">
                         About
                     </a>
-                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline'>
+                    <a href="https://ingenieria.bogota.unal.edu.co/es/" target="_blank" className='hover:underline' rel="noopener noreferrer">
                         Contact
                     </a>
                     <div className='mt-9'>
