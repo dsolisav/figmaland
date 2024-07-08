@@ -35,14 +35,14 @@ And then it is possible to preview production build with:
 </div>
 
 ## Desktop screenshots
-<div style="display:flex; justify-content:center;gap:1rem;padding:1rem">
-<div style="display:flex; flex-direction:column; flex-wrap:wrap; gap:1rem; justify-content:center">
+
+<p style="text-align: center;">
     <img src="https://imgur.com/AFQHoDf.jpg" style="width:100%" />
     <img src="https://imgur.com/4y9dXNx.jpg" style="width:100%" />
     <img src="https://imgur.com/HIw5hFQ.jpg" style="width:100%" />
     <img src="https://imgur.com/YrvicVh.jpg" style="width:100%" />
-</div>
-</div>
+</p>
+
 
 ## Tablet screenshots
 <div style="display:flex; justify-content:center;gap:1rem;padding:1rem">
