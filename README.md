@@ -26,3 +26,8 @@ Anytime, it is possible to build the project for production with:
 And then it is possible to preview production build with:
 
 ### `npm run preview`
+
+## Mobile screenshots
+<div style="display:flex; justify-content:center;gap:1rem">
+    <img src="https://imgur.com/5YDR8Xk" style="width:5rem" />
+</div>
