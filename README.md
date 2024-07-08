@@ -1,6 +1,6 @@
 ## Figmaland Landing Page
 
-Web Layout for [https://www.figma.com/file/D0hmUzaJ3OcEdKtcUvVm1M/Figmaland--Business-Landing-page-%28Community%29?node-id=65%3A0](Figmaland Landing Page), developed in React + Tailwind CSS to look as similar as possible to the original Figma design.\
+Web Layout for [Figmaland Landing Page](https://www.figma.com/file/D0hmUzaJ3OcEdKtcUvVm1M/Figmaland--Business-Landing-page-%28Community%29?node-id=65%3A0), developed in React + Tailwind CSS to look as similar as possible to the original Figma design.\
 Page was developed with close attention to detail and is fully responsive across a wide selection of devices and screen sizes.
 
 ## Available Scripts
