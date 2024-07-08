@@ -28,15 +28,15 @@ And then it is possible to preview production build with:
 ### `npm run preview`
 
 ## Mobile screenshots
-<div style="display:flex; justify-content:center;gap:1rem;padding:1rem; flex-wrap:wrap">
-    <img src="https://imgur.com/5YDR8Xk.jpg" style="width:10rem; height: auto" />
+<p style="text-align: center;">
+    <img src="https://imgur.com/h1nckZo.jpg" style="width:10rem; height: auto" />
     <img src="https://imgur.com/lvcRPhB.jpg" style="width:10rem; height: auto" />
     <img src="https://imgur.com/x19JqXu.jpg" style="width:10rem; height: auto" />
-</div>
+</p>
 
 ## Desktop screenshots
 
-<p align="center">
+<p style="text-align: center;">
     <img src="https://imgur.com/AFQHoDf.jpg" style="width:100%" />
     <img src="https://imgur.com/4y9dXNx.jpg" style="width:100%" />
     <img src="https://imgur.com/HIw5hFQ.jpg" style="width:100%" />
