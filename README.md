@@ -28,6 +28,29 @@ And then it is possible to preview production build with:
 ### `npm run preview`
 
 ## Mobile screenshots
-<div style="display:flex; justify-content:center;gap:1rem">
-    <img src="https://imgur.com/5YDR8Xk" style="width:5rem" />
+<div style="display:flex; justify-content:center;gap:1rem;padding:1rem">
+<div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center">
+    <img src="https://imgur.com/5YDR8Xk.jpg" style="width:10rem" />
+    <img src="https://imgur.com/lvcRPhB.jpg" style="width:10rem" />
+    <img src="https://imgur.com/x19JqXu.jpg" style="width:10rem" />
+</div>
+</div>
+
+## Desktop screenshots
+<div style="display:flex; justify-content:center;gap:1rem;padding:1rem">
+<div style="display:flex; flex-direction:column; flex-wrap:wrap; gap:1rem; justify-content:center">
+    <img src="https://imgur.com/AFQHoDf.jpg" style="width:100%" />
+    <img src="https://imgur.com/4y9dXNx.jpg" style="width:100%" />
+    <img src="https://imgur.com/HIw5hFQ.jpg" style="width:100%" />
+    <img src="https://imgur.com/YrvicVh.jpg" style="width:100%" />
+</div>
+</div>
+
+## Tablet screenshots
+<div style="display:flex; justify-content:center;gap:1rem;padding:1rem">
+<div style="display:flex; flex-direction:column; flex-wrap:wrap; gap:1rem; justify-content:center">
+    <img src="https://imgur.com/2K9WjcV.jpg" style="width:%" />
+    <img src="https://imgur.com/eFE9aH0.jpg" style="width:100%" />
+    <img src="https://imgur.com/xooow6q.jpg" style="width:100%" />
+</div>
 </div>
