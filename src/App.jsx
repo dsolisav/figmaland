@@ -104,7 +104,6 @@ function App() {
           <div className="hidden ssm:flex flex-col justify-center gap-12">
             <ContactRow />
             <div className="flex justify-center px-9">
-              {/* <img src={mapImage} className="w-[26rem]" alt="appImage"/> */}
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3750.103084360677!2d-122.42076508746143!3d37.77953383494227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580997aeae663%3A0xb2706dff83574f4a!2sAyuntamiento%20de%20San%20Francisco!5e0!3m2!1ses-419!2sco!4v1720402504961!5m2!1ses-419!2sco" className="w-full aspect-video"></iframe>
             </div>
             <IconRow
