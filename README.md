@@ -36,7 +36,7 @@ And then it is possible to preview production build with:
 
 ## Desktop screenshots
 
-<p style="text-align: center;">
+<p align="center">
     <img src="https://imgur.com/AFQHoDf.jpg" style="width:100%" />
     <img src="https://imgur.com/4y9dXNx.jpg" style="width:100%" />
     <img src="https://imgur.com/HIw5hFQ.jpg" style="width:100%" />
