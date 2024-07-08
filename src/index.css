@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-
+/* Tailwild font-face definitions to import and use Graphik font across the project */
 @layer base {
   @font-face {
     font-family: 'Graphik';

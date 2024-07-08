@@ -1,9 +1,14 @@
 import useWindowMediaQuery from "../utils/handleWindow";
 
+// Component for footer information block 
 function FooterWords() {
+    // Using Media Query from utils to handle screen size change 
     const {isMobile} = useWindowMediaQuery();
     return (
+        // Conditioning content of the information container. Content is different in mobile dimensions than desktop dimensions. Hrefs are set to the website of the UNAL Faculty of Engineering as placeholder.
+
         isMobile ?
+            // If screen is mobile, render this:
             <div className="flex flex-col ssm:flex-row gap-14 ssm:gap-20">
                 <div className="flex flex-col gap-4 justify-between">
                     <p className="text-white text-sm font-semibold text-center ssm:text-left">
@@ -67,6 +72,7 @@ function FooterWords() {
                 </div>
             </div>
         :
+        // if screen is desktop, render this: 
         <div className="flex flex-col ssm:flex-row gap-14 ssm:gap-20">
             <div className="flex flex-col gap-4 justify-between">
                 <p className="text-white text-sm font-semibold text-left">

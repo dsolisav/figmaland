@@ -7,14 +7,21 @@ import Navbar from './Navbar';
 import { useState } from 'react';
 
 function HeaderSection() {
+    // Using Media Query from utils to handle screen size change 
     const {isMobile} = useWindowMediaQuery();
+    // Defining state with useState to handle Burguer button events 
     const [clickBurguer, setClickBurguer] = useState(false);
-    return ( 
+    return (
+        // Defining main Header container as relative because there are children whose positioning is absolute relative to its parent
         <div className='relative'>
+            {/* Header image is different depending on whether screen is mobile or desktop, so this is handled with a ternary operator  */}
             <img src={isMobile ? headerImageMobile : headerImage} alt="headerImage" className="w-full h-full object-cover" />
+            {/* Place navbar and pass click and setClick handlers as props to the component  */}
             <Navbar click={clickBurguer} setClick={setClickBurguer} />
             {
+                // Content of the header and its style is different depending on whether the screen is mobile or desktop 
                 isMobile ? 
+                // If screen is mobile, render this:
                 <div className='absolute top-36 xsm:top-52 text-white w-full flex justify-center flex-col gap-10 p-2'>
                     <p className='text-[2.6rem] leading-[3.5rem] xsm:text-5xl xsm:leading-[3.7rem]'>
                         The best<br/>
@@ -32,6 +39,7 @@ function HeaderSection() {
                     </div>
                 </div>
                 :
+                // If screen is desktop, render this: 
                 <div className='absolute top-6 ssm:top-[4.7rem] md:top-20 mg:top-28 lg:top-44 xl:top-48 2xl:top-[15.2rem] flex flex-col justify-center items-center text-white w-full gap-3'>
                     <p className='sm:text-4xl ssm:text-3xl md:text-6xl xl:text-7xl font-bold'>
                         The best products <br/>
